@@ -9,6 +9,7 @@ const { SpecReporter, StacktraceOption } = require('jasmine-spec-reporter');
  */
 exports.config = {
   allScriptsTimeout: 11000,
+  useAllAngular2AppRoots: true,
   specs: [
     './src/**/*.e2e-spec.ts'
   ],
