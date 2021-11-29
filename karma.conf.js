@@ -40,7 +40,7 @@ module.exports = function (config) {
     browsers: ['Chrome'],
     singleRun: false,
     restartOnFileChange: true,
-    browsers: ['ChromeHeadlessCI'],
+    browsers: ['Chrome', 'ChromeHeadless', 'ChromeHeadlessCI'],
     customLaunchers: {
       ChromeHeadlessCI: {
         base: 'ChromeHeadless',
